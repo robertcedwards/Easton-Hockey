@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+	<head>
+<meta name="apple-mobile-web-app-capable" content="yes" /> 
+<link rel="apple-touch-startup-image" href="assets/startup.png"> 
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<link rel="apple-touch-icon-precomposed" href="assets/images/apple-touch-icon-precomposed.png"/>
+<meta name="viewport" content="width=320; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;">
+<link rel="shortcut icon" href="http://www.eastonbaseball.com/skin/frontend/enterprise/baseball/favicon.ico" type="image/x-icon" /> 
+<link rel="stylesheet" href="assets/add2home.css">
+<script type="application/javascript" src="assets/add2home.js"></script>
+	<title>Easton Hockey</title>
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.0a4.1/jquery.mobile-1.0a4.1.min.css" />
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.5.2.min.js"></script>
+	<script type="text/javascript" src="http://code.jquery.com/mobile/1.0a4.1/jquery.mobile-1.0a4.1.min.js"></script>
+<link rel="stylesheet" href="assets/style.css">
+<!-- git test -->
+<script type="text/javascript">
+
+ var _gaq = _gaq || [];
+ _gaq.push(['_setAccount', 'UA-25304191-1']);
+ _gaq.push(['_trackPageview']);
+
+ (function() {
+   var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+   ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+   var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+ })();
+
+</script>
+
+</head>
+<body style="background:black;"> 
+<div data-role="page" style="background:black;">
+
+	<div data-role="header" data-backbtn="false">
+	<img id="logo"src="assets/images/EASTON-LOGO.png">
+	</div><!-- /header -->
+
+	<div data-role="content" id="home">
+		<ul class="links">
+			<!-- <li class="menu"><a href="" ><img src="assets/images/cutwater.png"></a></li> -->
+			<li class="menu"><a href="videos.html" data-prefetch><img src="assets/images/videos.png"></a></li>
+			<li class="menu"><a href="#lightsout" data-prefetch><img src="assets/images/lightsout.png"></a></li>
+			<li class="menu"><a href="facebook.html" data-prefetch><img src="assets/images/facebook.png"></a></li>
+			<li class="menu"><a href="register.html" data-prefetch><img src="assets/images/news.png"></a></li>
+			<li class="menu"><a href="warranty.html" data-prefetch><img src="assets/images/warranty.png"></a></li>
+		</ul>
+	</div><!-- /content -->
+
+	<div data-role="footer" class="ui-bar">
+	</div><!-- /footer -->
+</div><!-- /page -->
+<div data-role="page" style="background:black;">
+
+	<div data-role="header" data-backbtn="false">
+	<img id="logo"src="assets/images/EASTON-LOGO.png">
+	</div><!-- /header -->
+	<div data-role="content" id="thankyou" data-theme="b">
+		<p>
+			Thanks for signing up to receive Easton Hockey.  Check your email account (including spam and junk filters) to receive the confirmation email.  You need to click on the link in the confirmation email to receive Easton Hockey News.
+		</p>
+	</div><!-- /content -->
+	<div data-role="footer" class="ui-bar">
+	</div><!-- /footer -->
+</div><!-- /page -->
+
+<div data-role="page" id="lightsout" style="background:black;"> 
+ 
+	<div data-role="header" data-backbtn="false">
+	<img id="logo"src="assets/images/EASTON-LOGO.png">
+	</div><!-- /header -->
+ 
+	<div data-role="content" id="lightsout" style="padding:0px;">	
+		<ul class="menu">
+		   <li class="lightsout"><img src="assets/images/lightsout/lightsout.png"></li>
+			<li class="menu"><a href="#shaft" data-prefetch><img src="assets/images/lightsout/shaft.png"></a></li>
+			<li class="menu"><a href="#taper" data-prefetch><img src="assets/images/lightsout/taper.png"></a></li>
+			<li class="menu"><a href="#blade" data-prefetch><img src="assets/images/lightsout/blade.png"></a></li>
+		   <li class="menu"><a href="#specs" data-prefetch><img src="assets/images/lightsout/specs.png"></a></li>
+
+		</ul>
+	</div><!-- /content --> 
+	
+	<div data-role="footer" class="ui-bar">
+		<a href="index.html" data-direction="reverse" data-role="button">Home</a>
+	</div><!-- /footer -->
+</div><!-- /S1 --> 
+
+<div data-role="page" id="shaft" style="background:black;"> 
+ 
+	<div data-role="header" data-backbtn="false">
+		<img id="power"src="assets/images/lightsout/logo.png">
+	</div><!-- /header -->
+ 
+	<div data-role="content" style="padding:0px;">	
+		<img src="assets/images/lightsout/shaft.jpg">
+	</div><!-- /content --> 
+	
+	<div data-role="footer" class="ui-bar">
+		<a href="#lightsout" data-direction="reverse" data-role="button">Home</a>
+		<a href="#taper" data-role="button">Next</a>
+	</div><!-- /footer -->
+</div><!-- /S1 --> 
+
+
+<!-- Start of taper --> 
+<div data-role="page" id="taper" style="background:black;"> 
+ 
+	<div data-role="header" data-backbtn="false">
+		<img id="power"src="assets/images/lightsout/logo.png">
+	</div><!-- /header -->
+ 
+	<div data-role="content" style="padding:0px;">	
+		<img src="assets/images/lightsout/taper.jpg">
+	</div><!-- /content --> 
+	
+	<div data-role="footer" class="ui-bar">
+		<a href="#shaft" data-role="button">Prev</a>
+		<a href="#lightsout" data-direction="reverse" data-role="button">Home</a>
+		<a href="#blade" data-role="button">Next</a>
+	</div><!-- /footer -->
+</div><!-- /S2 --> 
+<!-- Start of blade --> 
+<div data-role="page" id="blade" style="background:black;" > 
+ 
+	<div data-role="header" data-backbtn="false">
+		<img id="power"src="assets/images/lightsout/logo.png">
+	</div><!-- /header -->
+ 
+	<div data-role="content" style="padding:0px;">	
+		<img src="assets/images/lightsout/blade.jpg">
+	</div><!-- /content --> 
+	
+	<div data-role="footer" class="ui-bar">
+		<a href="#taper" data-role="button">Prev</a>
+		<a href="#lightsout" data-direction="reverse" data-role="button">Home</a>
+	</div><!-- /footer -->
+</div><!-- /S3 --> 
+<div data-role="page" id="specs" style="background:black;" > 
+ 
+	<div data-role="header" data-backbtn="false">
+		<img id="power"src="assets/images/lightsout/logo.png">
+	</div><!-- /header -->
+ 
+	<div data-role="content" style="padding:0px;">	
+		<img src="assets/images/lightsout/specs.jpg">
+	</div><!-- /content --> 
+	
+	<div data-role="footer" class="ui-bar">
+		<a href="#taper" data-role="button">Prev</a>
+		<a href="#lightsout" data-direction="reverse" data-role="button">Home</a>
+	</div><!-- /footer -->
+</div><!-- /S3 --> 
+</body>
+</html>
